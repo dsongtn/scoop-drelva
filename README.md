@@ -1,8 +1,8 @@
-# Drelva Access — Scoop bucket
+# Drelva — Scoop
 
-Public gateway only. No private applications, signing secrets or credentials in this repository.
+Drelva is a small cross-platform command-line utility. Version 0.1.1 is a development preview.
 
-## Install using Scoop
+## Install
 
 ```powershell
 scoop bucket add drelva https://github.com/dsongtn/scoop-drelva.git
@@ -11,10 +11,13 @@ drelva version
 drelva doctor
 ```
 
-The manifest pins version-specific public archives with SHA-256 hashes. No administrator privileges required for a normal per-user Scoop install.
+## Remove
 
-The private server still needs OAuth public client registration and package entitlement before `drelva join` can succeed. This is not a Microsoft Store or official WinGet listing.
+```powershell
+scoop uninstall drelva
+scoop bucket rm drelva
+```
 
-Remove with `scoop uninstall drelva` and `scoop bucket rm drelva`.
+The manifest references versioned download files with SHA-256 verification. Standard Scoop installation requires no administrator privileges.
 
-[Official website](https://dsongtn.github.io/drelva-distribution/) · [Preview release](https://github.com/dsongtn/drelva-distribution/releases/tag/v0.1.1).
+[Installation notes](https://dsongtn.github.io/drelva-distribution/) · [Downloads](https://github.com/dsongtn/drelva-distribution/releases/tag/v0.1.1).

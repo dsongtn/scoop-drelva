@@ -1,9 +1,9 @@
 {
   "version": "0.1.1",
-  "description": "Opt-in gateway for server-approved private software access (preview; no credentials bundled)",
+  "description": "Lightweight cross-platform command-line utility",
   "homepage": "https://dsongtn.github.io/drelva-distribution/",
   "license": "Proprietary",
-  "notes": "Drelva join requires separate OAuth client registration and private package entitlement; installing alone does not grant access.",
+  "notes": "Development preview. Run drelva doctor after installing.",
   "architecture": {
     "64bit": {
       "url": "https://github.com/dsongtn/drelva-distribution/releases/download/v0.1.1/drelva-0.1.1-windows-amd64.zip",
